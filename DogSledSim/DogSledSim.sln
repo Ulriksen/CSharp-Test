@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogSledSim.Model", "DogSled
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogSledSim.API", "DogSledSim.API\DogSledSim.API.csproj", "{0EE6AA83-E8ED-4B12-B720-586A80BA3C48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogSledSim.Data", "DogSledSim.Data\DogSledSim.Data.csproj", "{8C969443-21BA-43FB-899D-0C379C9C2489}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0EE6AA83-E8ED-4B12-B720-586A80BA3C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EE6AA83-E8ED-4B12-B720-586A80BA3C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EE6AA83-E8ED-4B12-B720-586A80BA3C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C969443-21BA-43FB-899D-0C379C9C2489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C969443-21BA-43FB-899D-0C379C9C2489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C969443-21BA-43FB-899D-0C379C9C2489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C969443-21BA-43FB-899D-0C379C9C2489}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

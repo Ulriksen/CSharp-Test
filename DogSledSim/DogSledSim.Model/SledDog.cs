@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DogSledSim.Model
 {
-    public class DogPair : Tuple<Dog, Dog>
+    public class SledDog : Dog
     {
-        public DogPair(Dog l, Dog r) : base(l, r)
+        public virtual void KeepRunning()
         {
+            Trace.TraceInformation("SledDog keeps running");
         }
-
-        public IEnumerable<Dog> Dogs { get { return new[] { Item1, Item2 }; } } 
     }
 }

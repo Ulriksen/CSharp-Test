@@ -7,25 +7,16 @@ using System.Threading.Tasks;
 
 namespace DogSledSim.Model
 {
-    public class SiberianHusky : ISledDog
+    public class SiberianHusky : SledDog
     {
-        public void Run()
+        public override void Run()
         {
             Trace.TraceInformation("Siberian husky starting");
         }
 
-        public void KeepRunning()
-        {
-        }
-
-        public void Stop()
+        public override void Stop()
         {
             Trace.TraceInformation("Siberian husky stopping");
-        }
-
-        public virtual void Bark()
-        {
-            Trace.TraceInformation("Woof");
         }
     }
 }

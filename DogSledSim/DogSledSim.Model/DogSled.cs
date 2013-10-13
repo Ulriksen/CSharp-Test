@@ -8,15 +8,26 @@ namespace DogSledSim.Model
 {
     public class DogSled
     {
-        IEnumerable<IDog> Dgs;
+        public int Id { get; set; }
+
+        private ICollection<Dog> _dgs;
+        public virtual ICollection<Dog> Dgs
+        {
+            get { return _dgs ?? (_dgs = new HashSet<Dog>()); }
+            set { _dgs = value; }
+        }
+
+        public DogSled()
+        { 
+        }
 
         /// <summary>
         /// Creates a dogsled and initialize the dog team
         /// </summary>
         /// <param name="a"></param>
-        public DogSled(List<ISledDog> a)
+        public DogSled(HashSet<Dog> a)
         {
-            Dgs = a;
+            _dgs = a;
         }
 
         /// <summary>
@@ -25,9 +36,9 @@ namespace DogSledSim.Model
         /// <param name="pair"></param>
         public void AddPair(DogPair pair)
         {
-            var l = new List<IDog>(Dgs);
+            var l = new List<Dog>(Dgs);
             l.AddRange(pair.Dogs);
-            Dgs = new List<IDog>(Dgs);
+            Dgs = new HashSet<Dog>(Dgs);
         }
 
         /// <summary>
@@ -35,7 +46,7 @@ namespace DogSledSim.Model
         /// </summary>
         public void Start()
         {
-            foreach (ISledDog d in Dgs)
+            foreach (SledDog d in Dgs)
             {
                 d.Run();
             }
