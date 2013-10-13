@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogSledSim", "DogSledSim\DogSledSim.csproj", "{0974815E-E8DC-403D-90CB-C24682A686C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogSledSim.Model", "DogSledSim.Model\DogSledSim.Model.csproj", "{06BA0959-D3A4-471F-AA65-0DB6CD47C064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0974815E-E8DC-403D-90CB-C24682A686C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0974815E-E8DC-403D-90CB-C24682A686C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0974815E-E8DC-403D-90CB-C24682A686C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0974815E-E8DC-403D-90CB-C24682A686C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06BA0959-D3A4-471F-AA65-0DB6CD47C064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BA0959-D3A4-471F-AA65-0DB6CD47C064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BA0959-D3A4-471F-AA65-0DB6CD47C064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BA0959-D3A4-471F-AA65-0DB6CD47C064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
