@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DogSledSim.Data;
+using DogSledSim.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,15 +13,17 @@ namespace DogSledSim.API
     public class DogSledController : ApiController
     {
         [HttpGet]
+        [Route("")]
         public IHttpActionResult Get()
         {
-            return null;
+            throw new NotImplementedException();
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet]
+        [Route("{id:int}", Name="GetSledById")]
         public IHttpActionResult GetById(int id)
         {
-            return null;
+            throw new NotImplementedException();
         }
     }
 }

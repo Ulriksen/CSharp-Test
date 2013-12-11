@@ -38,7 +38,7 @@ namespace DogSledSim.Model
         {
             var l = new List<Dog>(Dgs);
             l.AddRange(pair.Dogs);
-            Dgs = new HashSet<Dog>(Dgs);
+            Dgs = new HashSet<Dog>(l);
         }
 
         /// <summary>

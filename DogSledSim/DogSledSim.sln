@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.20827.3
+VisualStudioVersion = 12.0.21126.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogSledSim", "DogSledSim\DogSledSim.csproj", "{0974815E-E8DC-403D-90CB-C24682A686C8}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogSledSim.API", "DogSledSim.API\DogSledSim.API.csproj", "{0EE6AA83-E8ED-4B12-B720-586A80BA3C48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogSledSim.Data", "DogSledSim.Data\DogSledSim.Data.csproj", "{8C969443-21BA-43FB-899D-0C379C9C2489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogSimWeb", "DogSimWeb\DogSimWeb.csproj", "{8D1FAD39-8F38-4280-B06C-A51F720BAD5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8C969443-21BA-43FB-899D-0C379C9C2489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C969443-21BA-43FB-899D-0C379C9C2489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C969443-21BA-43FB-899D-0C379C9C2489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1FAD39-8F38-4280-B06C-A51F720BAD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1FAD39-8F38-4280-B06C-A51F720BAD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1FAD39-8F38-4280-B06C-A51F720BAD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1FAD39-8F38-4280-B06C-A51F720BAD5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
