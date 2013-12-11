@@ -18,7 +18,5 @@ namespace DogSledSim.Model
         {
             Trace.TraceInformation("Poodle stopping");
         }
-
-        
     }
 }
