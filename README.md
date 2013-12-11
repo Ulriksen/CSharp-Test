@@ -24,4 +24,4 @@ Du finner et tomt skall, med to tomme metoder for ApiControlleren i prosjektet D
 - get metoden skal returnere alle sledene inklusive hunder i databasen
 - getById metoden skal returnere en slede inklusive hunder med angitt slede Id. Id er da DogSled.Id. 
 
-Disclaimer: Alle navn, personer og dyr i oppgavene over er ren fiksjon. Enhver likhet med eventuelt virkelige personer, dyr eller organisasjoner er helt tilfeldig.
+*Disclaimer: Alle navn, personer og dyr i oppgavene over er ren fiksjon. Enhver likhet med eventuelt virkelige personer, dyr eller organisasjoner er helt tilfeldig.*
